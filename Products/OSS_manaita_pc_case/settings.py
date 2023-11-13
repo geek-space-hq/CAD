@@ -1,2 +1,9 @@
-ATX_X=244
-ATX_Y=305
+#左にI/Oポートが来るように設置した場合の右上を原点とする
+#ATX
+ATX_X=243.84
+ATX_Y=304.8
+ATX_SCREW=[{'x':6.35,'y':6.35}]
+MICROATX_X=244 #23.84(9.6")
+MICROATX_X=224 #23.84(9.6")
+MINIATX_X=170
+MINIATX_Y=170
