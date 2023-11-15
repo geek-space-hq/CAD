@@ -26,10 +26,11 @@ ATX:
     - x: 237.49
       y: 298.45
   HOLE_DIA: 4
+  SCREW_SIZE: 3
 
 #HDD SSD
-#上にSATAコネクタが来るように設置した場合の左下を原点とする
 #2.5インチSSD横置き
+#上にSATAコネクタが来るように設置した場合の左下を原点とする
 SATA2.5inc_H:
   X: 69.85
   Y: 100.45
@@ -43,3 +44,18 @@ SATA2.5inc_H:
     - x: 65.785
       y: 86.45
   HOLE_DIA: 4
+  SCREW_SIZE: 3
+
+#2.5インチSSD縦置き
+#上にコネクタが来るように設置した場合の左下を原点とする
+#厚み7mmのSSD想定
+SATA2.5inc_V:
+  X: 7
+  Y: 100.45
+  HOLE:
+    - x: 4
+      y: 9.85
+    - x: 4
+      y: 86.45
+  HOLE_DIA: 4
+  SCREW_SIZE: 3

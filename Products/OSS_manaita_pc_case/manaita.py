@@ -18,7 +18,7 @@ def make_board(name):
         main_board-=Pos(settings[name]['HOLE'][i]['x'],settings[name]['HOLE'][i]['y'])*Cylinder(settings[name]['HOLE_DIA'] / 2, height=BOARD_THIN)
     return main_board
 
-atx_board=make_board('SATA2.5inc_H')
+atx_board=make_board('SATA2.5inc_V')
 
 show_object(atx_board)
 
