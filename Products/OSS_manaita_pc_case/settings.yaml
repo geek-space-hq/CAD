@@ -59,3 +59,22 @@ SATA2.5inc_V:
       y: 86.45
   HOLE_DIA: 4
   SCREW_SIZE: 3
+
+#B4板
+#縦置き
+B4_BOARD:
+  X: 257
+  Y: 364
+  HOLE:
+  HOLE_DIA:
+  SCREW_SIZE:
+
+
+#A3板
+#縦置き
+A3_BOARD:
+  X: 297
+  Y: 420
+  HOLE:
+  HOLE_DIA:
+  SCREW_SIZE:
